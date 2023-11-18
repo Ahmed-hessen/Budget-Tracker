@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2d3436;
+  color: #ecf0f1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #34495e;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  color: #3498db;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form {
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ecf0f1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  background-color: #ecf0f1;
+  color: #2d3436;
+  outline: none;
+}
+#root select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#root select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+form button {
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  letter-spacing: 0.5px;
+}
+
+#records table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#records th,
+#records td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  color: black;
+}
+
+#records th {
+  background-color: #3498db;
+  color: #ecf0f1;
+}
+
+#records td {
+  background-color: #ecf0f1;
+}
+
+#records tr:hover {
+  background-color: #dfe6e9;
+}
+
+.record button {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 10% 5% 0;
+  letter-spacing: 0.8px;
+}
+
+.record button:hover {
+  background-color: #c0392b;
+}
+
+#summary {
+  background-color: #3498db;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#summary p {
+  margin: 0;
+  color: #ecf0f1;
+  margin: 10px 0;
 }
