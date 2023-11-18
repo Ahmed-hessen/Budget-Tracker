@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Budget-Tracker/static/css/main.7a0f37cc.css",
+    "main.js": "/Budget-Tracker/static/js/main.60fcf337.js",
+    "index.html": "/Budget-Tracker/index.html",
+    "main.7a0f37cc.css.map": "/Budget-Tracker/static/css/main.7a0f37cc.css.map",
+    "main.60fcf337.js.map": "/Budget-Tracker/static/js/main.60fcf337.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a0f37cc.css",
+    "static/js/main.60fcf337.js"
+  ]
+}
