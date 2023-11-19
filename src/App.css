@@ -77,6 +77,14 @@ form button {
   padding: 10px;
   text-align: center;
   color: black;
+  /* width: 15%; */
+}
+@media (max-width: 768px) {
+  #records th,
+  #records td {
+    font-size: 12px;
+    padding: 2px;
+  }
 }
 
 #records th {
@@ -102,7 +110,13 @@ form button {
   margin: 0 10% 5% 0;
   letter-spacing: 0.8px;
 }
-
+@media (max-width: 768px) {
+  .record button {
+    letter-spacing: 0;
+    padding: 2px 4px;
+    font-size: 12px;
+  }
+}
 .record button:hover {
   background-color: #c0392b;
 }

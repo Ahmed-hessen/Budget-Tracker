@@ -3,7 +3,7 @@ import React from "react";
 const Record = ({ record, onEdit, onDelete }) => {
   const formattedDate = new Date(record.date).toLocaleDateString("en-US", {
     year: "numeric",
-    month: "short",
+    month: "numeric",
     day: "numeric",
   });
 
